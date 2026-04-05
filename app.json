@@ -14,7 +14,12 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safedevice.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+	"appleTeamId": "F73Q8W4PKZ"
     },
     "android": {
       "adaptiveIcon": {
@@ -42,6 +47,12 @@
       "eas": {
         "projectId": "65bdbc2a-fe8f-4392-acf7-282271886a7f"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/65bdbc2a-fe8f-4392-acf7-282271886a7f"
     }
   }
 }
